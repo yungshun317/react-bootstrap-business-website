@@ -1,10 +1,10 @@
-import React, { createContext, useContext } from "react";
+import React, { createContext, useContext, useState } from "react";
 
 import layoutData from "../data/layout-data.json";
 
 const LayoutContext = createContext();
 
-export useLayout = () => useContext(LayoutContext);
+export const useLayout = () => useContext(LayoutContext);
 
 export default function LayoutProvider({ children }) {
 	const [layout, setLayout] = useState(layoutData);

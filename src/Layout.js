@@ -10,7 +10,28 @@ export default function Layout() {
 
 	if (!layout.length) return <div>No layout designed.</div>
 
-	return (
+    return (
+        <>
+            <section id="hero" className="d-flex">
+		         <Container fluid>
+		            <Row>
+		                <h1>Welcome to <span>Business Website</span></h1>
+		                <h2>We are team of talented designers making websites with React and Bootstrap</h2>
+		                <div class="d-flex">
+		                    <a href="#about" class="btn-get-started scrollto">Get Started</a>
+		                </div>
+		            </Row>
+		        </Container>
+		    </section>
+	     	<main id="main">
+		        <section id="about">
+		        </section>
+	     	</main>
+		</>
+    )
+
+    /*
+	return (	
 		<Container fluid>
 		    <Row>
 		        <Col xs={12} sm={6} lg={8} className="bg-info text-white">xs=12 sm=6 lg=8</Col>
@@ -27,4 +48,5 @@ export default function Layout() {
 		    </Row>
 		</Container>
     )
+    */
 }
