@@ -8,6 +8,8 @@ import { useLayout } from "./LayoutProvider";
 export default function Layout() {
 	const { layout } = useLayout();
 
+	if (!layout.length) return <div>No layout designed.</div>
+
 	return (
 		<Container fluid>
 		    <Row>
