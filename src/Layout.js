@@ -12,19 +12,27 @@ export default function Layout() {
 
     return (
         <>
-            <section id="hero" className="d-flex">
+            <section id="hero" className="d-flex align-items-center">
 		         <Container fluid>
 		            <Row>
-		                <h1>Welcome to <span>Business Website</span></h1>
-		                <h2>We are team of talented designers making websites with React and Bootstrap</h2>
-		                <div class="d-flex">
+		                <Col lg={12}><h1>Welcome to <span>Business Website</span></h1></Col>
+		                <Col lg={12}><h2>We are team of talented designers making websites with React and Bootstrap</h2></Col>
+		                <Col lg={12}>
 		                    <a href="#about" class="btn-get-started scrollto">Get Started</a>
-		                </div>
+		                </Col>
 		            </Row>
 		        </Container>
 		    </section>
 	     	<main id="main">
-		        <section id="about">
+		        <section id="about" className="about">
+		            <Container>
+		                <Row>
+		                    <Col lg={12}><h2 className="title d-flex justify-content-center">About</h2></Col>
+		                    <Col lg={12}><h3 className="d-flex justify-content-center">Find Out More <span>About Us</span></h3></Col>
+		                    <Col lg={12}><p className="d-flex justify-content-center">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p></Col>
+		                </Row>
+		                
+		            </Container>
 		        </section>
 	     	</main>
 		</>
