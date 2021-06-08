@@ -25,7 +25,9 @@ export default function App() {
 		            </Nav>
 		        </Navbar.Collapse>
 		    </Navbar>
-		    <Layout />
+		    <LayoutProvider>
+		        <Layout />
+		    </LayoutProvider>
 		    <footer>
 		        This is footer.
 		    </footer>
