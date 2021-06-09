@@ -300,6 +300,48 @@ export default function Layout() {
 		                </Row>
 		            </Container>
 		        </section>
+		        <section id="form" className="form">
+		            <Container>
+		                <Row>
+		                    <Col className="bg-success">
+		                        <h2 className="title d-flex justify-content-center">Contact</h2>
+		                        <h3 className="d-flex justify-content-center"><span>Contact Us</span></h3>
+		                        <p className="d-flex justify-content-center">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+		                    </Col>
+		                </Row>
+		                <Row>
+		                    <Col lg={6} className="bg-info">
+		                        <div class="info-box">
+                                    <i class="bx bx-map"></i>
+                                    <h3>Our Address</h3>
+                                    <p>A108 Adam Street, New York, NY 535022</p>
+                                </div>
+		                    </Col>
+		                    <Col lg={3} md={6} className="bg-primary">
+		                        <div class="info-box">
+                                    <i class="bx bx-envelope"></i>
+                                    <h3>Email Us</h3>
+                                    <p>contact@example.com</p>
+                                </div>
+		                    </Col>
+		                    <Col lg={3} md={6} className="bg-warning">
+		                        <div class="info-box">
+                                    <i class="bx bx-phone-call"></i>
+                                    <h3>Call Us</h3>
+                                    <p>+1 5589 55488 55</p>
+                                </div>
+		                    </Col>
+		                </Row>
+		                <Row>
+		                    <Col lg={6} className="bg-secondary">
+		                        <p>Here is the Map.</p>
+		                    </Col>
+		                    <Col lg={6} className="bg-danger">
+		                        <p>Here is the form.</p>
+		                    </Col>
+		                </Row>
+		            </Container>
+		        </section>
 	     	</main>
 		</>
     )
