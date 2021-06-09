@@ -180,7 +180,7 @@ export default function Layout() {
                                         </div>
                                     </div>
                                 </div>
-                                <div class="member-info">
+                                <div className="member-info">
                                     <h4>Walter White</h4>
                                     <span>Chief Executive Officer</span>
                                 </div>
@@ -197,7 +197,7 @@ export default function Layout() {
                                         </div>
                                     </div>
                                 </div>
-                                <div class="member-info">
+                                <div className="member-info">
                                     <h4>William Anderson</h4>
                                     <span>CTO</span>
                                 </div>
@@ -214,7 +214,7 @@ export default function Layout() {
                                         </div>
                                     </div>
                                 </div>
-                                <div class="member-info">
+                                <div className="member-info">
                                     <h4>Sarah Jhonson</h4>
                                     <span>Product Manager</span>
                                 </div>
@@ -231,9 +231,70 @@ export default function Layout() {
                                         </div>
                                     </div>
                                 </div>
-                                <div class="member-info">
+                                <div className="member-info">
                                     <h4>Amanda Jepson</h4>
                                     <span>Creative Director</span>
+                                </div>
+		                    </Col>
+		                </Row>
+		            </Container>
+		        </section>
+		        <section id="pricing-table" className="pricing-table">
+		            <Container>
+		                <Row>
+		                    <Col className="bg-success">
+		                        <h2 className="title d-flex justify-content-center">Pricing Table</h2>
+		                        <h3 className="d-flex justify-content-center">Check our <span>Pricing Table</span></h3>
+		                        <p className="d-flex justify-content-center">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+		                    </Col>
+		                </Row>
+		                <Row>
+		                    <Col lg={3} md={6}>
+		                        <div className="box">
+                                    <h3>Free</h3>
+                                    <h4><sup>$</sup>0<span> / month</span></h4>
+                                    <ul>
+                                        <li>Aida dere</li>
+                                        <li>Nec feugiat nisl</li>
+                                        <li>Nulla at volutpat dola</li>
+                                        <li className="na">Pharetra massa</li>
+                                        <li className="na">Massa ultricies mi</li>
+                                    </ul>
+                                </div>
+                                <div class="btn-wrap">
+                                    <a href="#" className="btn-buy">Buy Now</a>
+                                </div>
+		                    </Col>
+		                    <Col lg={3} md={6}>
+		                        <div className="box">
+                                    <h3>Free</h3>
+                                    <h4><sup>$</sup>0<span> / month</span></h4>
+                                    <ul>
+                                        <li>Aida dere</li>
+                                        <li>Nec feugiat nisl</li>
+                                        <li>Nulla at volutpat dola</li>
+                                        <li className="na">Pharetra massa</li>
+                                        <li className="na">Massa ultricies mi</li>
+                                    </ul>
+                                </div>
+                                <div class="btn-wrap">
+                                    <a href="#" className="btn-buy">Buy Now</a>
+                                </div>
+		                    </Col>
+		                    <Col lg={3} md={6}>
+		                        <div className="box">
+                                    <h3>Free</h3>
+                                    <h4><sup>$</sup>0<span> / month</span></h4>
+                                    <ul>
+                                        <li>Aida dere</li>
+                                        <li>Nec feugiat nisl</li>
+                                        <li>Nulla at volutpat dola</li>
+                                        <li className="na">Pharetra massa</li>
+                                        <li className="na">Massa ultricies mi</li>
+                                    </ul>
+                                </div>
+                                <div class="btn-wrap">
+                                    <a href="#" className="btn-buy">Buy Now</a>
                                 </div>
 		                    </Col>
 		                </Row>
