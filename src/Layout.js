@@ -128,7 +128,6 @@ export default function Layout() {
                                     <a href="" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
 		                        </div>
 		                    </Col>
-		                
 		                    <Col lg={4} md={6} className="portfolio-item web">
 		                        <img src="https://picsum.photos/200" class="img-fluid" />
 		                        <div>
@@ -138,7 +137,6 @@ export default function Layout() {
                                     <a href="" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
 		                        </div>
 		                    </Col>
-		                
 		                    <Col lg={4} md={6} className="portfolio-item app">
 		                        <img src="https://picsum.photos/200" class="img-fluid" />
 		                        <div>
@@ -148,7 +146,6 @@ export default function Layout() {
                                     <a href="" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
 		                        </div>
 		                    </Col>
-		                
 		                    <Col lg={4} md={6} className="portfolio-item card">
 		                        <img src="https://picsum.photos/200" class="img-fluid" />
 		                        <div>
@@ -157,6 +154,87 @@ export default function Layout() {
                                     <a href="https://picsum.photos/200" data-gall="portfolioGallery" className="venobox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
                                     <a href="" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
 		                        </div>
+		                    </Col>
+		                </Row>
+		            </Container>
+		        </section>
+		        <section id="team" className="team">
+		            <Container>
+		                <Row>
+		                    <Col className="bg-success">
+		                        <h2 className="title d-flex justify-content-center">Team</h2>
+		                        <h3 className="d-flex justify-content-center">Our Hardworking<span>Team</span></h3>
+		                        <p className="d-flex justify-content-center">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+		                    </Col>
+		                </Row>
+		                <Row>
+		                    <Col lg={3} md={6}>
+                                <div className="member">
+                                    <div className="member-img">
+                                        <img src="https://picsum.photos/200" className="img-fluid" />
+                                        <div className="social">
+                                            <a href=""><i className="bx bxl-twitter"></i></a>
+                                            <a href=""><i className="bx bxl-facebook-square"></i></a>
+                                            <a href=""><i className="bx bxl-instagram"></i></a>
+                                            <a href=""><i className="bx bxl-linkedin"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="member-info">
+                                    <h4>Walter White</h4>
+                                    <span>Chief Executive Officer</span>
+                                </div>
+		                    </Col>
+		                    <Col lg={3} md={6}>
+                                <div className="member">
+                                    <div className="member-img">
+                                        <img src="https://picsum.photos/200" className="img-fluid" />
+                                        <div className="social">
+                                            <a href=""><i className="bx bxl-twitter"></i></a>
+                                            <a href=""><i className="bx bxl-facebook-square"></i></a>
+                                            <a href=""><i className="bx bxl-instagram"></i></a>
+                                            <a href=""><i className="bx bxl-linkedin"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="member-info">
+                                    <h4>William Anderson</h4>
+                                    <span>CTO</span>
+                                </div>
+		                    </Col>
+		                    <Col lg={3} md={6}>
+                                <div className="member">
+                                    <div className="member-img">
+                                        <img src="https://picsum.photos/200" className="img-fluid" />
+                                        <div className="social">
+                                            <a href=""><i className="bx bxl-twitter"></i></a>
+                                            <a href=""><i className="bx bxl-facebook-square"></i></a>
+                                            <a href=""><i className="bx bxl-instagram"></i></a>
+                                            <a href=""><i className="bx bxl-linkedin"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="member-info">
+                                    <h4>Sarah Jhonson</h4>
+                                    <span>Product Manager</span>
+                                </div>
+		                    </Col>
+		                    <Col lg={3} md={6}>
+                                <div className="member">
+                                    <div className="member-img">
+                                        <img src="https://picsum.photos/200" className="img-fluid" />
+                                        <div className="social">
+                                            <a href=""><i className="bx bxl-twitter"></i></a>
+                                            <a href=""><i className="bx bxl-facebook-square"></i></a>
+                                            <a href=""><i className="bx bxl-instagram"></i></a>
+                                            <a href=""><i className="bx bxl-linkedin"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="member-info">
+                                    <h4>Amanda Jepson</h4>
+                                    <span>Creative Director</span>
+                                </div>
 		                    </Col>
 		                </Row>
 		            </Container>
