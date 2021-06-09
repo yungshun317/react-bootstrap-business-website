@@ -101,6 +101,66 @@ export default function Layout() {
 		                </Row>
 		            </Container>
 		        </section>
+		        <section id="portfolio" className="portfolio">
+		            <Container>
+		                <Row>
+		                    <Col className="bg-success">
+		                        <h2 className="title d-flex justify-content-center">Portfolio</h2>
+		                        <h3 className="d-flex justify-content-center">Check our <span>Portfolio</span></h3>
+		                        <p className="d-flex justify-content-center">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+		                    </Col>
+		                </Row>
+		                <Row>
+		                    <Col lg={12} className="d-flex justify-content-center">
+		                            <li className="active" style={{display: "inline"}}>All</li>
+		                            <li style={{display: "inline"}}>App</li>
+		                            <li style={{display: "inline"}}>Card</li>
+		                            <li style={{display: "inline"}}>Web</li>
+		                    </Col>
+		                </Row>
+		                <Row>
+		                    <Col lg={4} md={6} className="portfolio-item app">
+		                        <img src="https://picsum.photos/200" class="img-fluid" />
+		                        <div>
+		                            <h4>App 1</h4>
+                                    <p>App</p>
+                                    <a href="https://picsum.photos/200" data-gall="portfolioGallery" className="venobox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
+                                    <a href="" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+		                        </div>
+		                    </Col>
+		                
+		                    <Col lg={4} md={6} className="portfolio-item web">
+		                        <img src="https://picsum.photos/200" class="img-fluid" />
+		                        <div>
+		                            <h4>Web 1</h4>
+                                    <p>Web</p>
+                                    <a href="https://picsum.photos/200" data-gall="portfolioGallery" className="venobox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
+                                    <a href="" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+		                        </div>
+		                    </Col>
+		                
+		                    <Col lg={4} md={6} className="portfolio-item app">
+		                        <img src="https://picsum.photos/200" class="img-fluid" />
+		                        <div>
+		                            <h4>App 2</h4>
+                                    <p>App</p>
+                                    <a href="https://picsum.photos/200" data-gall="portfolioGallery" className="venobox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
+                                    <a href="" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+		                        </div>
+		                    </Col>
+		                
+		                    <Col lg={4} md={6} className="portfolio-item card">
+		                        <img src="https://picsum.photos/200" class="img-fluid" />
+		                        <div>
+		                            <h4>Card 1</h4>
+                                    <p>Card</p>
+                                    <a href="https://picsum.photos/200" data-gall="portfolioGallery" className="venobox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
+                                    <a href="" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+		                        </div>
+		                    </Col>
+		                </Row>
+		            </Container>
+		        </section>
 	     	</main>
 		</>
     )
