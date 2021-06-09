@@ -73,6 +73,31 @@ export default function Layout() {
 		                        <h4 className="d-flex justify-content-center"><a href="">Lorem Ipsum</a></h4>
                                 <p className="d-flex justify-content-center">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
 		                    </Col>
+		                    <Col lg={4} md={6} className="icon-box bg-info">
+		                        <div className="icon d-flex justify-content-center"><i className="bx bx-game"></i></div>
+		                        <h4 className="d-flex justify-content-center"><a href="">Lorem Ipsum</a></h4>
+                                <p className="d-flex justify-content-center">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+		                    </Col>
+		                    <Col lg={4} md={6} className="icon-box bg-info">
+		                        <div className="icon d-flex justify-content-center"><i className="bx bx-alarm-snooze"></i></div>
+		                        <h4 className="d-flex justify-content-center"><a href="">Lorem Ipsum</a></h4>
+                                <p className="d-flex justify-content-center">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+		                    </Col>
+		                    <Col lg={4} md={6} className="icon-box bg-info">
+		                        <div className="icon d-flex justify-content-center"><i className="bx bx-atom"></i></div>
+		                        <h4 className="d-flex justify-content-center"><a href="">Lorem Ipsum</a></h4>
+                                <p className="d-flex justify-content-center">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+		                    </Col>
+		                    <Col lg={4} md={6} className="icon-box bg-info">
+		                        <div className="icon d-flex justify-content-center"><i className="bx bx-chrome"></i></div>
+		                        <h4 className="d-flex justify-content-center"><a href="">Lorem Ipsum</a></h4>
+                                <p className="d-flex justify-content-center">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+		                    </Col>
+		                    <Col lg={4} md={6} className="icon-box bg-info">
+		                        <div className="icon d-flex justify-content-center"><i className="bx bxl-bitcoin"></i></div>
+		                        <h4 className="d-flex justify-content-center"><a href="">Lorem Ipsum</a></h4>
+                                <p className="d-flex justify-content-center">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+		                    </Col>
 		                </Row>
 		            </Container>
 		        </section>
