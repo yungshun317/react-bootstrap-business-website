@@ -15,10 +15,10 @@ export default function Layout() {
             <section id="hero" className="d-flex align-items-center">
 		         <Container fluid>
 		            <Row>
-		                <Col lg={12}><h1>Welcome to <span>Business Website</span></h1></Col>
-		                <Col lg={12}><h2>We are team of talented designers making websites with React and Bootstrap</h2></Col>
-		                <Col lg={12}>
-		                    <a href="#about" class="btn-get-started scrollto">Get Started</a>
+		                <Col>
+		                    <h1>Welcome to <span>Business Website</span></h1>
+		                    <h2>We are team of talented designers making websites with React and Bootstrap</h2>
+		                    <a href="#about" className="btn-get-started scrollto">Get Started</a>
 		                </Col>
 		            </Row>
 		        </Container>
@@ -27,13 +27,22 @@ export default function Layout() {
 		        <section id="about" className="about">
 		            <Container>
 		                <Row>
-		                    <Col lg={12}><h2 className="title d-flex justify-content-center">About</h2></Col>
-		                    <Col lg={12}><h3 className="d-flex justify-content-center">Find Out More <span>About Us</span></h3></Col>
-		                    <Col lg={12}><p className="d-flex justify-content-center">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p></Col>
+		                    <Col>
+		                        <h2 className="title d-flex justify-content-center">About</h2>
+		                        <h3 className="d-flex justify-content-center">Find Out More <span>About Us</span></h3>
+		                        <p className="d-flex justify-content-center">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+		                    </Col>
 		                </Row>
-		                
+		                <Row>
+		                    <Col lg={6}><img src="https://picsum.photos/200/300" className="img-fluid" /></Col>
+		                    <Col lg={6}>
+		                        <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
+                                <p class="font-italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </Col>
+		                </Row>
 		            </Container>
 		        </section>
+		        
 	     	</main>
 		</>
     )
