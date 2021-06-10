@@ -5,6 +5,7 @@
       {
         "col": 1,
         "class": "bg-success"
+
       }
     ]
   }, {
@@ -12,10 +13,12 @@
     "children": [
       {
         "col": 1,
-        "class": "bg-info"
+        "class": "bg-info",
+        "lg": 6
       }, {
         "col": 2,
-        "class": "bg-primary"
+        "class": "bg-primary",
+        "lg": 6
       }
 
     ]

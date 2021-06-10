@@ -20,7 +20,14 @@ export default function Section({
                             
                             {block.children.map(column => {
                             	return (
-                            		<Col className={column.class}>
+                            		<Col 
+                            		    className={column.class}
+                            		    xs={column.xs}
+                            		    sm={column.sm}
+                            		    md={column.md} 
+                            		    lg={column.lg}
+                            		    xl={column.xl} 
+                            		>
                             		    {block.row}, { column.col }
                             		</Col>
                             	)
