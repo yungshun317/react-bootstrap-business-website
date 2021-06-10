@@ -4,12 +4,16 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
 import { useLayout } from "./LayoutProvider";
+import Paragraph from "./Paragraph";
 
 export default function Section({
 	row,
 	children
 }) {
 	const { layout } = useLayout();
+	const components = {
+		"Paragraph": Paragraph
+	}
 
     return (
     	<section id="about" className="about">
@@ -17,8 +21,8 @@ export default function Section({
     	        {
     	        	layout.map(block => 
     	        		<Row>
-                            
                             {block.children.map(column => {
+                            	let DynamicComponent = components[`${column.component}`];
                             	return (
                             		<Col 
                             		    className={column.class}
@@ -28,7 +32,7 @@ export default function Section({
                             		    lg={column.lg}
                             		    xl={column.xl} 
                             		>
-                            		    {block.row}, { column.col }
+                            		    {block.row}, { column.col }, <DynamicComponent />
                             		</Col>
                             	)
                             })}

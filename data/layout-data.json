@@ -4,8 +4,8 @@
     "children": [
       {
         "col": 1,
-        "class": "bg-success"
-
+        "class": "bg-success",
+        "component": "Paragraph"
       }
     ]
   }, {
@@ -14,11 +14,13 @@
       {
         "col": 1,
         "class": "bg-info",
-        "lg": 6
+        "lg": 6,
+        "component": "Paragraph"
       }, {
         "col": 2,
         "class": "bg-primary",
-        "lg": 6
+        "lg": 6,
+        "component": "Paragraph"
       }
 
     ]
