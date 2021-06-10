@@ -17,7 +17,14 @@ export default function Section({
     	        {
     	        	layout.map(block => 
     	        		<Row>
-                            {block.row}
+                            
+                            {block.children.map(column => {
+                            	return (
+                            		<Col className={column.class}>
+                            		    {block.row}, { column.col }
+                            		</Col>
+                            	)
+                            })}
                         </Row>
                     )
     	        }
