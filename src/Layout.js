@@ -5,12 +5,26 @@ import Col from "react-bootstrap/Col";
 import "boxicons";
 
 import { useLayout } from "./LayoutProvider";
+import Section from "./Section";
 
 export default function Layout() {
 	const { layout } = useLayout();
 
 	if (!layout.length) return <div>No layout designed.</div>
 
+    return (
+        <>
+            {
+                layout.map(section =>
+                    <Section
+                        key={section.id}
+                        {...section}
+                    />)
+            }
+        </>
+    )
+
+    /*
     return (
         <>
             <section id="hero" className="d-flex align-items-center">
@@ -345,6 +359,7 @@ export default function Layout() {
 	     	</main>
 		</>
     )
+    */
 
     /*
 	return (	
