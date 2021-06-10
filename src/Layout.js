@@ -14,6 +14,13 @@ export default function Layout() {
 
     return (
         <>
+            <Section />
+        </>
+    )
+
+    /*
+    return (
+        <>
             {
                 layout.map(section =>
                     <Section
@@ -23,6 +30,7 @@ export default function Layout() {
             }
         </>
     )
+    */
 
     /*
     return (

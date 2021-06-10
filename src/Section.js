@@ -5,9 +5,27 @@ import Col from "react-bootstrap/Col";
 
 import { useLayout } from "./LayoutProvider";
 
-export default function Section() {
+export default function Section({
+	row,
+	children
+}) {
 	const { layout } = useLayout();
 
+    return (
+    	<section id="about" className="about">
+    	    <Container>
+    	        {
+    	        	layout.map(block => 
+    	        		<Row>
+                            {block.row}
+                        </Row>
+                    )
+    	        }
+    	    </Container>
+    	</section>
+    );
+
+    /*
 	return (
 		<section id="about" className="about">
 		    <Container>
@@ -43,4 +61,5 @@ export default function Section() {
 		    </Container>
 		</section>
 	)
+	*/
 }

@@ -1,43 +1,24 @@
 [
   {
-    "Col": [{
-      "xs": 12,
-      "sm": 6,
-      "lg": 8,
-      "className": "bg-info text-white",
-      "text": "xs=12 sm=6 lg=8"
-    }, {
-      "sm": 6,
-      "lg": 4,
-      "className": "bg-primary text-white",
-      "text": "sm=6 lg=4"
-    }]
+    "row": 1,
+    "children": [
+      {
+        "col": 1,
+        "class": "bg-success"
+      }
+    ]
   }, {
-    "Col": [{
-      "xs": 6,
-      "sm": 4,
-      "className": "bg-info text-white",
-      "text": "sm=6 lg=4"
-    }, {
-      "xs": 6,
-      "sm": 4,
-      "className": "bg-primary text-white",
-      "text": "sm=6 lg=4"
-    }, {
-      "xs": 6,
-      "sm": 4,
-      "className": "bg-success text-white",
-      "text": "sm=6 lg=4"
-    }]
-  }, {
-    "Col": [{
-      "xs": 6,
-      "className": "bg-info text-white",
-      "text": "sm=6 lg=4"
-    }, {
-      "xs": 6,
-      "className": "bg-primary text-white",
-      "text": "sm=6 lg=4"
-    }]
+    "row": 2,
+    "children": [
+      {
+        "col": 1,
+        "class": "bg-info"
+      }, {
+        "col": 2,
+        "class": "bg-primary"
+      }
+
+    ]
+
   }
 ]
