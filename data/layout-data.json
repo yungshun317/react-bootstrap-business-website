@@ -5,7 +5,13 @@
       {
         "col": 1,
         "class": "bg-success",
-        "component": "Paragraph"
+        "components": [
+          {
+            "name": "Paragraph"
+          }, {
+            "name": "Paragraph"
+          }
+        ]
       }
     ]
   }, {
@@ -15,12 +21,20 @@
         "col": 1,
         "class": "bg-info",
         "lg": 6,
-        "component": "Paragraph"
+        "components": [
+          {
+            "name": "Paragraph"
+          }
+        ]
       }, {
         "col": 2,
         "class": "bg-primary",
         "lg": 6,
-        "component": "Paragraph"
+        "components": [
+          {
+            "name": "Paragraph"
+          }
+        ]
       }
 
     ]

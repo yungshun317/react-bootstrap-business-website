@@ -22,7 +22,7 @@ export default function Section({
     	        	layout.map(block => 
     	        		<Row>
                             {block.children.map(column => {
-                            	let DynamicComponent = components[`${column.component}`];
+                            	
                             	return (
                             		<Col 
                             		    className={column.class}
@@ -32,7 +32,16 @@ export default function Section({
                             		    lg={column.lg}
                             		    xl={column.xl} 
                             		>
-                            		    {block.row}, { column.col }, <DynamicComponent />
+                            		    {block.row}, { column.col }, 
+
+                                        {column.components.map(component => {
+                                        	let DynamicComponent = components[`${component.name}`];
+                                            return (
+                                            <DynamicComponent />
+                                        )})
+
+                                        }
+                            		    
                             		</Col>
                             	)
                             })}
