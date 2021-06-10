@@ -5,6 +5,7 @@ import Col from "react-bootstrap/Col";
 
 import { useLayout } from "./LayoutProvider";
 import Paragraph from "./Paragraph";
+import Image from "./Image";
 
 export default function Section({
 	row,
@@ -12,7 +13,8 @@ export default function Section({
 }) {
 	const { layout } = useLayout();
 	const components = {
-		"Paragraph": Paragraph
+		"Paragraph": Paragraph,
+		"Image": Image
 	}
 
     return (
